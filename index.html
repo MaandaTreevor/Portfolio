@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maanda Mamafha Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href ="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Maanda Trevor Mamafha</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Maanda Trevor Mamafha</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about " onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Certificates</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assests/headshot photo.jpg" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Maanda Trevor Mamafha</h1>
+          <p class="section__text__p2">Software Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assests/resume-example.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="/assests/linkedin.png"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/maanda-trevor-mamafha-584727167/';"
+              alt=""
+            />
+            <img
+              src="/assests/github.png"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <br>
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="text-container">
+          <p>
+           Hi! Maanda Here, I am a Software Developer a highly motivated and results-oriented individual
+           with a strong work ethic. I tend to use Technology as a business tool to engage with people.
+          </p>
+        </div>
+        <div class="section-container">
+         
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  class="icon"
+                  src="/assests/experience.png"
+                  alt="Experience icon"
+                />
+                <h3>Experience</h3>
+                <p>6 Months<br/>Practical Training</p>
+                <p>1 Year<br />IT Learnership At Velisa Africa <br/><div class="btn-container">
+                  <button
+                    class="btn btn-color-2"
+                    onclick="window.open('./assests/Feedback.pdf')"
+                  >
+                    Performance Feedback
+                  </button>
+      
+                </div></p>
+              </div>
+              <div class="details-container">
+                <img
+                  class="icon"
+                  src="/assests/education.png"
+                  alt="Experience icon"
+                />
+                <h3>Education</h3>
+                <p>Grade 12 Bachelor Degree<br />National Diploma in Information Technology(Software Development)</p>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        <img
+          src="/assests/arrow.png"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+          alt=""
+        />
+      </section>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Laravel</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="/assests/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assests/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        alt=""
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Certificates</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/365.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microsoft 365 Fundamentals</h2>
+      
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/fo.PNG"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ITIL Foundation</h2>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/astro.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Apache Airflow Fundamentals</h2>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/oo.PNG"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Oracle Cloud</h2>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/team.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Managing Microsoft Teams</h2>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/power.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microsoft Power Platforms Fundamentals</h2>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/excel.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microsoft Office Specialist:Excel Associate</h2>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/cisco.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Cisco: Cybersecurity</h2>
+  
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/ad.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microsoft Azure Administrator</h2>
+  
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="/assests/azure-fundamentals.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microsoft Azure Fundamentals</h2>
+  
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assests/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        alt=""
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assests/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">maandatrevor100@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/assests/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Certificates</a></li>
+            <li><a href="#contacts">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Maanda Trevor Mamafha. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
